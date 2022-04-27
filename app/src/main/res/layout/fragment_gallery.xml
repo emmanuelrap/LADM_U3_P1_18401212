@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    tools:context=".ui.gallery.GalleryFragment">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/fondovetlogo"></ImageView>
+
+    <TextView
+        android:layout_marginBottom="15dp"
+        android:textSize="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="¿Qué Desea Hacer?"></TextView>
+
+    <Button
+        android:id="@+id/btnInsertarMascota"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Insertar Nueva Mascota"></Button>
+    <Button
+
+        android:id="@+id/btnModificarMascota"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Modificar Registro "></Button>
+
+    <Button
+        android:id="@+id/btnEliminarMascota"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Eliminar Registro"></Button>
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+
+</LinearLayout>
